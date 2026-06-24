@@ -6,7 +6,7 @@ El proyecto está dividido en varias partes independientes, cada una en su propi
 
 | Repositorio | Descripción | Stack |
 |---|---|---|
-| [[`sabority-api`](#)](https://github.com/DraigKuro/sabority-api) | Backend que centraliza la lógica de negocio: mesas, pedidos, menú y comunicación entre el panel de administración y la app de cliente. | TypeScript · Node.js · Express · MongoDB |
+| [`sabority-api`](#)(https://github.com/DraigKuro/sabority-api) | Backend que centraliza la lógica de negocio: mesas, pedidos, menú y comunicación entre el panel de administración y la app de cliente. | TypeScript · Node.js · Express · MongoDB |
 | [`sabority-android`](#) | App nativa para que el cliente haga su pedido desde la mesa: consulta el menú, añade productos y envía el pedido directamente a cocina/barra. | Kotlin |
 | [`sabority-web`](#) | Panel de administración web para el personal del restaurante: gestión de mesas, pedidos en curso y menú. | TypeScript · Node.js · Express |
 | [`sabority-web-legacy`](#) | Primera versión del proyecto. Antes de existir la app Android, los clientes pedían desde la mesa a través de un cliente web. Se conserva como referencia de la evolución del proyecto. | TypeScript · Node.js · Express |
